@@ -21,7 +21,7 @@ The analysis includes descriptive statistics, feature evaluation, and regression
 
 2. **Descriptive Analysis**  
    - Explored numerical (engine size, cylinders, consumption) and categorical (fuel type, transmission, class, gears) variables.  
-   - Identified strong correlations (e.g., CO2 vs fuel consumption: **0.935**).  
+   - Identified strong correlations (e.g., CO₂ vs fuel consumption: **0.935**).  
 
 3. **Modeling**  
    - Built multiple regression models (stepwise, forward, backward, exhaustive search).  
@@ -33,14 +33,14 @@ The analysis includes descriptive statistics, feature evaluation, and regression
    - Residual analysis confirmed improved variance stability after including interaction terms.  
 
 ## 🚀 Results  
-- **Consumption, fuel type, year, transmission, and gears** emerged as the strongest predictors of CO2 emissions.  
+- **Consumption, fuel type, year, transmission, and gears** emerged as the strongest predictors of CO₂ emissions.  
 - Model 9 provided a simpler structure while retaining high accuracy, making it effective for practical use.  
 - Demonstrated that smaller models can still deliver reliable predictive performance.  
 
 ## 📂 Repository Structure  
 ```
 ├── Data/              # Raw and cleaned datasets (train/test splits)
-├── Src/           # R scripts for analysis and modeling
+├── Src/           # R scripts for analysis and modelling
 ├── Documentation/f   # Full project report
 └── README.md          # Project documentation
 ```
