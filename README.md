@@ -1,5 +1,8 @@
 # CO₂ Car Emissions Prediction  
 
+## 🏗️ Project Context
+This was a research project developed for the second term of the Post-Degree Diploma in Data Analytics in Langara College.
+
 ## 📌 Project Overview  
 This project builds **linear regression models in R** to predict car CO₂ emissions (grams/km) using the Government of Canada’s Fuel Consumption dataset.
 The analysis includes descriptive statistics, feature evaluation, and regression modeling to identify the best predictors of emissions and compare model performance.  
