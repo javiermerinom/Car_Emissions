@@ -28,16 +28,16 @@ The analysis includes descriptive statistics, feature evaluation, and regression
 
 3. **Modeling**  
    - Built multiple regression models (stepwise, forward, backward, exhaustive search).  
-   - Tested models with and without interaction terms.  
-   - Compared Model 8 (interaction-based) vs. Model 9 (simplified).  
+   - Tested in total 9 models with and without interaction terms.
+   - Compared Model number 8 (full model) vs. Model number 9 (reduced model).  
 
 4. **Evaluation**  
    - Achieved high predictive accuracy (Adjusted R² ≈ **0.994**).  
    - Residual analysis confirmed improved variance stability after including interaction terms.  
 
 ## 🚀 Results  
-- **Consumption, fuel type, year, transmission, and gears** emerged as the strongest predictors of CO₂ emissions.  
-- Model 9 provided a simpler structure while retaining high accuracy, making it effective for practical use.  
+- Full model (Model 8) comprised by **consumption, fuel type, year, gears, transmission, engine and interatction (consumption*fuel)** emerged as the strongest predictors of CO₂ emissions **(RMSE=1.83, R2=0.9992)**.  
+- Reduced model (Model 9) comprised by **consumption, fuel type and its interaction** provided a simpler structure while retaining high accuracy **(RMSE=2.47, R2=0.9985)**, making it the most effective for practical use.  
 - Demonstrated that smaller models can still deliver reliable predictive performance.  
 
 ## 📂 Repository Structure  
