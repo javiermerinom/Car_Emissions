@@ -32,12 +32,12 @@ The analysis includes descriptive statistics, feature evaluation, and regression
    - Compared Model number 8 (full model) vs. Model number 9 (reduced model).  
 
 4. **Evaluation**  
-   - Achieved high predictive accuracy (Adjusted R² ≈ **0.994**).  
+   - Achieved high predictive accuracy (Adjusted R² ≈ **0.9992**).  
    - Residual analysis confirmed improved variance stability after including interaction terms.  
 
 ## 🚀 Results  
-- Full model (Model 8) comprised by **consumption, fuel type, year, gears, transmission, engine and interatction (consumption*fuel)** emerged as the strongest predictors of CO₂ emissions **(RMSE=1.83, R2=0.9992)**.  
-- Reduced model (Model 9) comprised by **consumption, fuel type and its interaction** provided a simpler structure while retaining high accuracy **(RMSE=2.47, R2=0.9985)**, making it the most effective for practical use.  
+- The full model, which included **consumption, fuel type, year, gears, transmission, engine, and the interaction term (consumption × fuel)**, emerged as the strongest predictor of CO₂ emissions **(RMSE = 1.83, R² ≈ 0.9992)**.  
+- The reduced model, using only consumption, fuel type, and their interaction, offered a simpler structure while still maintaining high accuracy **(RMSE = 2.47, R² = 0.9985)**, making it the most effective for practical use. 
 - Demonstrated that smaller models can still deliver reliable predictive performance.  
 
 ## 📂 Repository Structure  
